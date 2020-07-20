@@ -29,7 +29,7 @@ const
     ano = 2020;
 var
     ano_nascimento, idade: integer;
-		nome: string;
+    nome: string;
 begin
     clrscr;
     writeln('Programa que calcula a idade de uma pessoa.');
