@@ -28,12 +28,12 @@ var
 
 begin
     clrscr;
-		writeln('Programa que calcula a área de um terreno.');
-		writeln('Digite a medida da frente do terreno: ');
-		readln(frente);
-		writeln('Digite a medida do fundo do terreno: ');
-		readln(fundo);
-		area := frente * fundo;
-		writeln('A área do terreno é de ', area,' unidades de área.'); // Unidades de área podem ser, por exemplo, m².
+    writeln('Programa que calcula a área de um terreno.');
+    writeln('Digite a medida da frente do terreno: ');
+    readln(frente);
+    writeln('Digite a medida do fundo do terreno: ');
+    readln(fundo);
+    area := frente * fundo;
+    writeln('A área do terreno é de ', area,' unidades de área.'); // Unidades de área podem ser, por exemplo, m².
     repeat until keypressed;
 end.
