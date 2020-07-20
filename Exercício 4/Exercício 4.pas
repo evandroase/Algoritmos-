@@ -24,7 +24,7 @@ Program Exercicio;
 uses crt;
 
 var
-	frente,fundo,area: integer;
+    frente,fundo,area: integer;
 
 begin
     clrscr;
