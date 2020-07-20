@@ -23,7 +23,7 @@ uses crt;
 
 var
     salario: integer;
-		salario_diario: real;
+    salario_diario: real;
 begin
     clrscr;
     writeln('Programa que calcula o salário diário de um funcionário.');
@@ -34,6 +34,5 @@ begin
     repeat until keypressed;
 end.
 
-//OBS:Comando para representar reais de maneira
-//mais fácil de ler:
-//variavel:casas_antes_virgula:casas_depois_virg 
+// OBS:Comando para representar reais de maneira mais fácil de ler:
+// variavel:casas_antes_virgula:casas_depois_virg 
