@@ -43,4 +43,4 @@ begin
 end.
 
 // OBS:Não se preocupe com idade negativa por enquanto.
-// Mais para frente aprenderemos a lidar com consistência de dados.
+// Mais para frente aprenderemos a lidar com consistência de dados.    =)
