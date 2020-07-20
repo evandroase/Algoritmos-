@@ -2,7 +2,7 @@
 // Exibir as duas temperaturas. Fórmula : Tf = (9/5) * Tc + 32.
 
 {
-																	Solução em Portugol
+										Solução em Portugol
 
 Algoritmo Exercicio3;                   //Tc = temperatura em celsius
 Var                                     //Tf = temperatura em farenheit
@@ -24,7 +24,7 @@ uses crt;
 var
 	Tf,Tc : real;
 begin
-	clrscr;											 // Esse comando limpa a tela do terminal que abre quando executamos o programa.
+	clrscr;			 // Esse comando limpa a tela do terminal que abre quando executamos o programa.
 	writeln('Programa que converte temperaturas de Celsius para Farenheit.');
 	writeln('Digite uma temperatura em celsius: ');
 	readln(Tc);
