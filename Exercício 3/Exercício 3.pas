@@ -1,8 +1,7 @@
 //Exercício 3: Escreva um algoritmo que receba uma temperatura em graus celsius e coverta-a para graus Farenheit.
 // Exibir as duas temperaturas. Fórmula : Tf = (9/5) * Tc + 32.
 
-{
-										Solução em Portugol
+{                        										Solução em Portugol
 
 Algoritmo Exercicio3;                   //Tc = temperatura em celsius
 Var                                     //Tf = temperatura em farenheit
@@ -14,7 +13,6 @@ Inicio
 	Tf <- (9/5) * Tc + 32;
 	exiba(Tc,' º celsius é equivalente a ' ,Tf,' º farenheit.');
 Fim.
-
 }
 
 // Solução em Pascal
