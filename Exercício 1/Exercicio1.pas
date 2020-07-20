@@ -5,12 +5,12 @@
 
 Algoritmo Exercicio1;
 Var
-	numero,dobro: inteiro;
+	numero,dobro: real;
 Inicio
   exiba('Programa que dobra um número.');
   exiba('Digite um número: ');
   leia(numero);
-  dobro := numero * 2;
+  dobro <- numero * 2;
   exiba('O dobro de ',numero,' é: ', dobro);
 Fim.
 
@@ -22,7 +22,7 @@ Program Exercicio1;
 uses crt;
 
 var
-numero,dobro: integer;
+numero,dobro: real;
 
 begin
     writeln('Programa que dobra um número.');
