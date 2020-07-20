@@ -1,7 +1,6 @@
 //Exercício 1: Escreva um algoritmo que receba um número qualquer e exiba o dobro desse número.
 
-{
-																	Solução em Portugol
+{		Solução em Portugol
 
 Algoritmo Exercicio1;
 Var

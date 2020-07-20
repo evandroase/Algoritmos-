@@ -1,7 +1,6 @@
 //Exercício : 
 
-{
-																	Solução em Portugol
+{		      Solução em Portugol
 
 Algoritmo Exercicio;
 Var
