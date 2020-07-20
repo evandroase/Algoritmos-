@@ -20,6 +20,10 @@ var
 
 
 begin
-   
+    clrscr;
+
+
+
+		
     repeat until keypressed;
 end.
