@@ -1,4 +1,4 @@
 # Algoritmos
  Algoritmos FATEC-BTU
 
-Abrir arquivos .pas no pascalXE, freepascal, pascalzin ou análogo.
+Basta clicar nos arquivos .pas para lê-los. Também é possível fazer o download deles para executar na sua máquina.
