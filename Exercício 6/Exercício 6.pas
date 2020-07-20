@@ -8,7 +8,7 @@ Const
     ano = 2020; // Basta atualizar para o ano atual. Exemplificando o uso de constantes.
 Var
     ano_nascimento, idade: inteiro;
-		nome: caracter;
+    nome: caracter;
 Inicio
     exiba("Programa que calcula a idade de uma pessoa.");
     exiba("Digite o ano de nascimento da pessoa: ");
