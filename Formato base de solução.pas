@@ -24,6 +24,6 @@ begin
 
 
 
-		
+
     repeat until keypressed;
 end.
