@@ -13,8 +13,8 @@ Inicio
     leia(P2);
     exiba("Digite a nota da terceira prova: ");
     leia(P3);
-		media_ponderada <- (2 * P1 + 3 * P2 + 4 * P3)/9;
-		exiba("A média ponderada do aluno é: ",media_ponderada);
+    media_ponderada <- (2 * P1 + 3 * P2 + 4 * P3)/9;
+    exiba("A média ponderada do aluno é: ",media_ponderada);
 Fim.
 }
 
@@ -34,6 +34,6 @@ begin
     writeln('Digite a nota da terceira prova: ');
     readln(P3);
     media_ponderada := (2 * P1 + 3 * P2 + 4 * P3)/9;
-		writeln('A média ponderada do aluno é: ',media_ponderada:2:2);
+    writeln('A média ponderada do aluno é: ',media_ponderada:2:2);
     repeat until keypressed;
 end.
