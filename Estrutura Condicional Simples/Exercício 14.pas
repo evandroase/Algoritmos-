@@ -1,28 +1,36 @@
-//Exercicio :
+//Exercicio 14: Faça um algoritmo que receba a idade de uma pessoa e exiba mensagem de maioridade.
 
 {		      Solução em Portugol
-Algoritmo Exercicio ;
-Const
-	  const1 = 1;
+
+Algoritmo Exercicio14;
 Var
-    var1: real;
+    idade: inteiro;
 Inicio
-    exiba("");
-    leia();
+    exiba("Programa que determina se uma pessoa é maior de idade.");
+    exiba("Digite uma idade: ");
+    leia(idade);
+    se(idade >= 18)
+        então exiba("Maior de idade.");
+    fimse;
+    se(idade < 18)
+        então exiba("Menor de idade.");
+    fimse;
 Fim.
 }
-
 // Solução em Pascal
-
-Program Exercicio;
-uses crt;
-const
-	  const1 = 1;
-var
-    var1: real;
-begin
-    clrscr;
-    writeln('');
-    readln();
-    repeat until keypressed;
-end.
+Program
+Exercicio14;
+Uses crt;
+Var
+    idade: Integer;
+Begin
+    Clrscr;
+    Writeln('Programa que determina se uma pessoa é maior de idade.');
+    WriteLn('Digite uma idade: ');
+    Readln(idade);
+    if(idade >= 18)
+        then writeln('Maior de idade.');
+    if(idade < 18)
+        then writeln('Menor de idade.');
+    Repeat Until Keypressed;
+End.
