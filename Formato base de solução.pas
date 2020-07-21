@@ -1,17 +1,14 @@
-//Exercício :
-//
+//Exercicio :
 
 {		      Solução em Portugol
 Algoritmo Exercicio ;
 Const
-    ano = 2020;
+	  const1 = 1;
 Var
-    ano_nascimento, idade: inteiro;
-    nome: caracter;
+    var1: real;
 Inicio
-    exiba(" ");
-    leia( );
-
+    exiba("");
+    leia();
 Fim.
 }
 
@@ -20,13 +17,12 @@ Fim.
 Program Exercicio;
 uses crt;
 const
-    ano = 2020;
+	  const1 = 1;
 var
-    ano_nascimento, idade: integer;
-    nome: string;
+    var1: real;
 begin
     clrscr;
-    writeln(' ');
+    writeln('');
     readln();
     repeat until keypressed;
 end.
