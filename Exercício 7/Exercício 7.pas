@@ -20,7 +20,7 @@ Fim.
 
 // Solução em Pascal
 
-Program Exercicio;
+Program Exercicio7;
 uses crt;
 var
     P1,P2,P3,media_ponderada:real;
