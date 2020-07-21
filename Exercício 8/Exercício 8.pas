@@ -6,7 +6,7 @@
 Algoritmo Exercicio ;
 Const
     valor_hora_normal = 10;
-	  valor_hora_extra = 15;
+    valor_hora_extra = 15;
 Var
     salario_anual, hora_normal, hora_extra: real;
 Inicio
@@ -15,8 +15,8 @@ Inicio
     leia(hora_normal);
     exiba("Digite a quantidade de horas extras trabalhadas no ano: ");
     leia(hora_extra);
-		salario_anual <- hora_normal * valor_hora_normal + hora_extra * valor_hora _extra;
-		exiba("O salário anual desse trabalhador é: ",salario_anual);
+    salario_anual <- hora_normal * valor_hora_normal + hora_extra * valor_hora _extra;
+    exiba("O salário anual desse trabalhador é: ",salario_anual);
 Fim.
 }
 
@@ -26,7 +26,7 @@ Program Exercicio8;
 uses crt;
 const
     valor_hora_normal = 10;
-	  valor_hora_extra = 15;
+    valor_hora_extra = 15;
 var
     salario_anual, hora_normal, hora_extra: real;
 begin
