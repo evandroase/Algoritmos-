@@ -1,10 +1,10 @@
-//Exercício : 
+//Exercício :
 //
 
 {		      Solução em Portugol
 Algoritmo Exercicio ;
 Const
-    ano = 2020; 
+    ano = 2020;
 Var
     ano_nascimento, idade: inteiro;
     nome: caracter;
