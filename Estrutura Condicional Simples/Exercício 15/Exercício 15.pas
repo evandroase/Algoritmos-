@@ -1,8 +1,8 @@
-//Exercicio 15: Assuma que o trabalhador do exercício 08 deve pagar 10% de imposto se o seu salário anual for menor ou 
+//Exercicio 15: Assuma que o trabalhador do exercício 08 deve pagar 10% de imposto se o seu salário anual for menor ou
 //igual a R$ 12.000,00. Caso o salário seja maior que este valor o imposto devido é igual a 10% sobre R$ 12.000,00 mais
 //25% sobre o que passar de R$ 12.000,00. Escreva um algoritmo que calcule e exiba o imposto devido pelo trabalhador.
 {		      Solução em Portugol
-Algoritmo Exercicio 17;
+Algoritmo Exercicio 15;
 Const
     valor_hora_normal = 10;
     valor_hora_extra = 15;
@@ -26,7 +26,7 @@ Fim.
 
 // Solução em Pascal
 
-Program Exercicio17;
+Program Exercicio15;
 uses crt;
 Const
     valor_hora_normal = 10;
