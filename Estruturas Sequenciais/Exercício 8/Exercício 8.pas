@@ -3,7 +3,7 @@
 //anual deste trabalhador.
 
 {		      Solução em Portugol
-Algoritmo Exercicio ;
+Algoritmo Exercicio8;
 Const
     valor_hora_normal = 10;
     valor_hora_extra = 15;
