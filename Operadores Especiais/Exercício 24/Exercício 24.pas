@@ -11,13 +11,27 @@ Acima de 21 anos			Parabéns! Você está ficando experiente.
 
 {		      Solução em Portugol
 Algoritmo Exercicio 24;
-Const
-  const1 = 1;
 Var
-  var1: real;
+  idade: inteiro;
+  nome: caracter;
 Inicio
-  exiba("");
-  leia();
+  exiba("Programa que avalia a sua idade.");
+  exiba("Digite o seu nome: ");
+  leia(nome);
+  exiba("Digite a sua idade: ");
+  leia(idade);
+  se(idade < 16)
+    então exiba("Parabéns ",nome,"! Mas você é muito jovem.");
+  fimse;
+  se((idade = 16) ou (idade = 17))
+    então exiba("Parabéns ",nome,"! Você já pode votar.");
+  fimse;
+  se((idade >= 18) e (idade <= 21))
+    então exiba("Parabéns ",nome,"! Você já pode votar e tirar carteira de motorista.");
+  fimse;
+  se(idade > 21)
+    então exiba("Parabéns ",nome,"! Você está ficando experiente.");
+  fimse;
 Fim.
 }
 
@@ -25,13 +39,23 @@ Fim.
 
 Program Exercicio24;
 uses crt;
-const
-  const1 = 1;
 var
-  var1: real;
+  idade: integer;
+  nome: string;
 begin
   clrscr;
-  writeln('');
-  readln();
+  writeln('Programa que avalia a sua idade.');
+  writeln('Digite o seu nome: ');
+  readln(nome);
+  writeln('Digite a sua idade: ');
+  readln(idade);
+  if(idade < 16)
+    then writeln('Parabéns ',nome,'! Mas você é muito jovem.');
+  if((idade = 16) or (idade = 17))
+    then writeln('Parabéns ',nome,'! Você já pode votar.');
+  if((idade >= 18) and (idade <= 21))
+    then writeln('Parabéns ',nome,'! Você já pode votar e tirar carteira de motorista.');
+  if(idade > 21)
+    then writeln('Parabéns ',nome,'! Você está ficando experiente.');
   repeat until keypressed;
 end.
