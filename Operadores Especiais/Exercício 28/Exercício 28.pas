@@ -7,7 +7,7 @@ Var                                             //B = (senha = "adoroalgoritmos"
   usuario, senha: caracter;
 Inicio                                                  A       B       A e B
   exiba("Tela de acesso.");                             V       F         F
-  exiba("Digite o nome de usuário: ");                 F       V         F
+  exiba("Digite o nome de usuário: ");                  F       V         F
   leia(usuario);                                        V       V         V
   exiba("Digite a senha: ");                            F       F         F
   leia(senha);
