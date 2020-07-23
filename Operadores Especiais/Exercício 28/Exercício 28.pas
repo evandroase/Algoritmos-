@@ -3,8 +3,8 @@
 //exibir na tela: "Acesso Permitido!" ou "Acesso Negado!".
 {		      Solução em Portugol
 Algoritmo Exercicio ;                           //A = (usuario = "user") ou (usuario = "USER")                    --> se(A e B) [Avaliar a tabela]  
-Var                                             //B = (senha = "adoroalgoritmos") ou (senha = "ADOROALGORITMOS")
-  usuario, senha: caracter;                     /////////////////////////////////////
+Var                                             //B = (senha = "adoroalgoritmos") ou (senha = "ADOROALGORITMOS")      A e B = verdadeiro, então exibe acesso perimitido 
+  usuario, senha: caracter;                     /////////////////////////////////////                                 A e B = falso, então exibe acesso negado.
 Inicio                                          //      A       B       A e B      //
   exiba("Tela de acesso.");                     //      V       F         F        //
   exiba("Digite o nome de usuário: ");          //      F       V         F        //
