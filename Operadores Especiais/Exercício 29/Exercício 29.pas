@@ -1,7 +1,7 @@
 //Exercicio 29: Faça um algoritmo que receba um numero inteiro qualquer e mostre se esse número é divisível
 //por: 2, 3, 4, 5 ou 10.
 
-{		      Solução em Portugol                                                       A = (resto(numero,2) = 0)         
+{ Solução em Portugol                                                               A = (resto(numero,2) = 0)         
 Algoritmo Exercicio 29;                                                             B = (resto(numero,3) = 0)         // se(A ou B ou C ou D ou E)
 Var                                                                                 C = (resto(numero,4) = 0)     --> //Se qualquer um deles é verdadeiro, então é divisível.
   numero: inteiro;                                                                  D = (resto(numero,5) = 0)         //Se todos são falsos, então não é divisível.
