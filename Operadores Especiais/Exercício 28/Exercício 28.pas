@@ -2,7 +2,7 @@
 //deve ser "user" ou "USER" e a senha deve ser "adoroalgoritmos" ou "ADOROALGORITMOS". Após a digitação dos dados,
 //exibir na tela: "Acesso Permitido!" ou "Acesso Negado!".
 {		      Solução em Portugol
-Algoritmo Exercicio ;                           //A = (usuario = "user") ou (usuario = "USER")
+Algoritmo Exercicio ;                           //A = (usuario = "user") ou (usuario = "USER")                    --> se(A e B) [Avaliar a tabela]  
 Var                                             //B = (senha = "adoroalgoritmos") ou (senha = "ADOROALGORITMOS")
   usuario, senha: caracter;                     /////////////////////////////////////
 Inicio                                          //      A       B       A e B      //
