@@ -15,7 +15,7 @@ Inicio
     senão exiba("Acesso negado.");
   fimse;
 Fim.
-}
+}              
 
 // Solução em Pascal
 
