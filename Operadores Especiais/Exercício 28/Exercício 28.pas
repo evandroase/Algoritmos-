@@ -4,13 +4,13 @@
 {		      Solução em Portugol
 Algoritmo Exercicio ;                           //A = (usuario = "user") ou (usuario = "USER")
 Var                                             //B = (senha = "adoroalgoritmos") ou (senha = "ADOROALGORITMOS")
-  usuario, senha: caracter;
-Inicio                                                  A       B       A e B
-  exiba("Tela de acesso.");                             V       F         F
-  exiba("Digite o nome de usuário: ");                  F       V         F
-  leia(usuario);                                        V       V         V
-  exiba("Digite a senha: ");                            F       F         F
-  leia(senha);
+  usuario, senha: caracter;                     /////////////////////////////////////
+Inicio                                          //      A       B       A e B      //
+  exiba("Tela de acesso.");                     //      V       F         F        //
+  exiba("Digite o nome de usuário: ");          //      F       V         F        //
+  leia(usuario);                                //      V       V         V        //
+  exiba("Digite a senha: ");                    //      F       F         F        //
+  leia(senha);                                  /////////////////////////////////////
   se(((usuario = "user") ou (usuario = "USER")) e ((senha = "adoroalgoritmos") ou (senha = "ADOROALGORITMOS")))
     então exiba("Acesso Permitido!")
     senão exiba("Acesso Negado!");
