@@ -10,12 +10,11 @@ Inicio
   contador <- 1;
   soma <- 0;
   enquanto(contador < 21) faca
-  Inicio
     exiba("Digite o ",contador,"º número.");
     leia(N);
     soma <- soma + N;
     contador <- contador + 1;
-  Fim;
+  fimenquanto;
   exiba("O valor do somatório dos 20 números é: ",soma);
 Fim.
 }
