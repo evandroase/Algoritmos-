@@ -37,8 +37,7 @@ begin
     writeln('Digite o ',contador,'º número.');
     readln(N);
     soma := soma + N;
-    contador :=
-	  contador + 1;
+    contador := contador + 1;
   End;
   writeln('O valor do somatório dos 20 números é: ',soma:0:2);
   repeat until keypressed;
