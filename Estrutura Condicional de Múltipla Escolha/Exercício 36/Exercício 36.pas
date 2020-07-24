@@ -53,6 +53,6 @@ begin
     '*': writeln('A multiplicação dos dois números é:', (numero1 * numero2):0:2);
     '/': writeln('A divisão dos dois números é:', (numero1 / numero2):0:2);
     else writeln('Reinicie o programa e digite uma operação válida.');
-	End;
+  End;
   repeat until keypressed;
 end.
