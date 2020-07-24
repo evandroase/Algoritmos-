@@ -8,6 +8,7 @@ Var
   var1: real;
 Inicio
   exiba("");
+  exiba("");
   leia();
 Fim.
 }
