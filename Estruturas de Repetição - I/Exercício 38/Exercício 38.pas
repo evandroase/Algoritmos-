@@ -10,7 +10,7 @@ Inicio
   contador <- 1;
   soma <- 0;
   enquanto(contador < 21) faca
-	Inicio
+  Inicio
     exiba("Digite o ",contador,"º número.");
     leia(N);
     soma <- soma + N;
@@ -33,7 +33,7 @@ begin
   contador := 1;
   soma := 0;
   while(contador < 21) do
-	Begin
+  Begin
     writeln('Digite o ',contador,'º número.');
     readln(N);
     soma := soma + N;
