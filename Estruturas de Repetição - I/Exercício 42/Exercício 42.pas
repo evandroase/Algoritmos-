@@ -5,7 +5,7 @@
 Algoritmo Exercicio 42;
 Var
   S: real;
-	contador,alternador_sinal: inteiro;
+  contador,alternador_sinal: inteiro;
 Inicio
   exiba("Programa que calcula uma soma maluca.");
   S <- 0;
@@ -24,7 +24,7 @@ Program Exercicio42;
 uses crt;
 var
   S: real;
-	contador,alternador_sinal: integer;
+  contador,alternador_sinal: integer;
 begin
   clrscr;
   writeln('Programa que calcula uma soma maluca.');
