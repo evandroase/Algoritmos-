@@ -8,7 +8,7 @@ Inicio
   exiba("Programa que exibe tabuadas.");
   exiba("Digite uma tabuada que você quer saber: ");
   leia(tabuada);
-  contador <- 0;
+  contador <- 1;
   enquanto(contador <= 10) faca
     exiba(tabuada," x ",contador," = ", tabuada * contador);
     contador <- contador + 1;	  
@@ -27,7 +27,7 @@ begin
   writeln('Programa que exibe tabuadas.');
   writeln('Digite uma tabuada que você quer saber: ');
   readln(tabuada);
-  contador := 0;
+  contador := 1;
   while(contador <= 10) do
   Begin
     writeln(tabuada,' x ',contador,' = ', tabuada * contador);
