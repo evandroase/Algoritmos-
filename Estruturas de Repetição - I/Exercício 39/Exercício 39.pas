@@ -30,7 +30,7 @@ begin
   contador := 0;
   while(contador <= 10) do
   Begin
-		writeln(tabuada,' x ',contador,' = ', tabuada * contador);
+    writeln(tabuada,' x ',contador,' = ', tabuada * contador);
     contador := contador + 1;
   End;
   repeat until keypressed;
