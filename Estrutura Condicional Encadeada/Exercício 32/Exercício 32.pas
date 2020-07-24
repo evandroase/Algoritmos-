@@ -44,7 +44,7 @@ var
   N1,N2,N3,N4: integer;
 begin
   clrscr;
-	writeln('Programa que diz se números estão em certos intervalos.');
+  writeln('Programa que diz se números estão em certos intervalos.');
   writeln('Digite o primeiro número: ');
   readln(N1);
   writeln('Digite o segundo número: ');
