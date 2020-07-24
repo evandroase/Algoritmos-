@@ -24,7 +24,7 @@ Fim.
 
 // Solução em Pascal
 
-Program Exercicio;
+Program Exercicio30;
 uses crt;
 var
   time1,time2: integer;
