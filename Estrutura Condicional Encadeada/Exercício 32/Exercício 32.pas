@@ -17,7 +17,7 @@ Inicio
   leia(N4);
   se(((N1 >= 1) e (N1 <= 25)) ou ((N2 >= 1) e (N2 <= 25)) ou ((N3 >= 1) e (N3 <= 25)) ou ((N4 >= 1) e (N4 <= 25)))
     então exiba("Um dos números está no intervalo 1-25.");
-		senão exiba("Nenhum dos números está no intervalo 1-25.");
+    senão exiba("Nenhum dos números está no intervalo 1-25.");
   fimse;
   se(((N1 >= 26) e (N1 <= 50)) ou ((N2 >= 26) e (N2 <= 50)) ou ((N3 >= 26) e (N3 <= 50)) ou ((N4 >= 26) e (N4 <= 50)))
     então exiba("Um dos números está no intervalo 26-50.");
@@ -55,7 +55,7 @@ begin
   readln(N4);
   if(((N1 >= 1) and (N1 <= 25)) or ((N2 >= 1) and (N2 <= 25)) or ((N3 >= 1) and (N3 <= 25)) or ((N4 >= 1) and (N4 <= 25)))
     then writeln('Um dos números está no intervalo 1-25.')
-		else writeln('Nenhum dos números está no intervalo 1-25.');
+    else writeln('Nenhum dos números está no intervalo 1-25.');
   if(((N1 >= 26) and (N1 <= 50)) or ((N2 >= 26) and (N2 <= 50)) or ((N3 >= 26) and (N3 <= 50)) or ((N4 >= 26) and (N4 <= 50)))
     then writeln('Um dos números está no intervalo 26-50.')
     else writeln('Nenhum dos números está no intervalo 26-50.');
