@@ -69,28 +69,28 @@ begin
   readln(N3);
   if((N1 > N2) and (N2 > N3))                                                                                                                   //N3 < N2 < N1
     then writeln(N3,'-',N2,'-',N1)
-		else if((N2 > N1) and (N1 > N3))                                                                                                           //N3 < N1 < N2
-		          then writeln(N3,'-',N1,'-',N2)
-              else if((N3 > N1) and (N1 > N2))                                                                                                 //N2 < N1 < N3
-										  then writeln(N2,'-',N1,'-',N3)
-                      else if((N1 > N3) and (N3 > N2))                                                                                         //N2 < N3 < N1
-                              then writeln(N2,'-',N3,'-',N1)
-                              else if((N3 > N2) and (N2 > N1))                                                                                 //N1 < N2 < N3
-																			then writeln(N1,'-',N2,'-',N3)
-                                      else if((N2 > N3) and (N3> N1))                                                                          //N1 < N3 < N2
+    else if((N2 > N1) and (N1 > N3))                                                                                                           //N3 < N1 < N2
+           then writeln(N3,'-',N1,'-',N2)
+           else if((N3 > N1) and (N1 > N2))                                                                                                 //N2 < N1 < N3
+                  then writeln(N2,'-',N1,'-',N3)
+                  else if((N1 > N3) and (N3 > N2))                                                                                         //N2 < N3 < N1
+                         then writeln(N2,'-',N3,'-',N1)
+                         else if((N3 > N2) and (N2 > N1))                                                                                 //N1 < N2 < N3
+                                then writeln(N1,'-',N2,'-',N3)
+                                else if((N2 > N3) and (N3> N1))                                                                          //N1 < N3 < N2
+                                       then writeln(N1,'-',N3,'-',N2)
+                                       else if((N2 = N3) and (N3 = N1))                                                                 //N1 = N3 = N2
                                               then writeln(N1,'-',N3,'-',N2)
-																							else if((N2 = N3) and (N3 = N1))                                                                 //N1 = N3 = N2
-																											then writeln(N1,'-',N3,'-',N2)
-																											else if((N2 = N3) and (N1 > N2))                                                         //N2 = N3 < N1
-																											        then writeln(N2,'-',N3,'-',N1)
-																															else if((N2 = N3) and (N1 < N2))                                                 //N2 = N3 > N1
-																																			then writeln(N1,'-',N3,'-',N2)
-																																			else if((N1 = N3) and (N1 > N2))                                         //N1 = N3 > N2
-																																			        then writeln(N2,'-',N3,'-',N1)
-																																							else if((N1 = N3) and (N1 < N2))                                 //N1 = N3 < N2
-																																											then writeln(N1,'-',N3,'-',N2)
-																																											else if((N2 = N1) and (N2 < N3))                         //N1 = N2 < N3
-																																															then writeln(N2,'-',N1,'-',N3)
-																																															else writeln(N3,'-',N2,'-',N1);
+                                              else if((N2 = N3) and (N1 > N2))                                                         //N2 = N3 < N1
+                                                     then writeln(N2,'-',N3,'-',N1)
+                                                     else if((N2 = N3) and (N1 < N2))                                                 //N2 = N3 > N1
+                                                            then writeln(N1,'-',N3,'-',N2)
+                                                            else if((N1 = N3) and (N1 > N2))                                         //N1 = N3 > N2
+                                                                   then writeln(N2,'-',N3,'-',N1)
+                                                                   else if((N1 = N3) and (N1 < N2))                                 //N1 = N3 < N2
+                                                                          then writeln(N1,'-',N3,'-',N2)
+                                                                          else if((N2 = N1) and (N2 < N3))                         //N1 = N2 < N3
+                                                                                 then writeln(N2,'-',N1,'-',N3)
+                                                                                 else writeln(N3,'-',N2,'-',N1);
   repeat until keypressed;
 end.
