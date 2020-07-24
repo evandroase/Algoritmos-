@@ -11,7 +11,7 @@ Inicio
   exiba("Digite o segundo número: ");
   leia(N2);                                      //Existem 13 possibilidades, sendo que cada uma é avaliada por um
   exiba("Digite o terceiro número: ");           //condicional diferente.
-  leia(N3);                                      //OBS: Eu não gosto dessa identação, só estou seguindo o padrão da matéria.
+  leia(N3);                                      //OBS: Eu não gosto dessa identação, só estou seguindo o padrão da matéria..
   se((N1 > N2) e (N2 > N3))                                                                                                                 //N3 < N2 < N1
     então exiba(N3,"-",N2,"-",N1);
     senão se((N2 > N1) e (N1 > N3))                                                                                                         //N3 < N1 < N2
