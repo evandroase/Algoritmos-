@@ -1,7 +1,7 @@
 //Exercicio 32: Escreva um algoritmo que receba do usuário 4 números inteiros e, informe se há ou não um deles no 
 //intervalo entre 1 e 25, outro de 26 a 50, outro de 51 a 75, e um último de 76 a 100.
 
-{		      Solução em Portugol
+{		      Solução em Portugol.
 Algoritmo Exercicio 32;
 Var
   N1,N2,N3,N4: inteiro;
