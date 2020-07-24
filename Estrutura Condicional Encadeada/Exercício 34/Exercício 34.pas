@@ -3,7 +3,7 @@
 //informar ao usuário. Caso o coeficiente “a” for igual à zero, informar que não se
 //trata de uma equação do segundo grau e encerre o algoritmo.
 
-{		      Solu��o em Portugol
+{		      Solução em Portugol
 Algoritmo Exercicio 34;
 Var
   a,b,c,delta: real;
@@ -29,7 +29,7 @@ Inicio
 Fim.
 }
 
-// Solu��o em Pascal
+// Solução em Pascal
 
 Program Exercicio34;
 uses crt;
