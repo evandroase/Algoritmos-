@@ -43,11 +43,11 @@ Inicio
                                                                   fimse;
                                                           fimse;
                                                   fimse;
-     																			  fimse;                                                                              
-																		fimse;
-                            fimse;
-										fimse;
-					  fimse;              																 
+                                          fimse;                                                                              
+                                  fimse;
+                          fimse;
+                  fimse;
+          fimse;              																 
   fimse;
 Fim.
 }
