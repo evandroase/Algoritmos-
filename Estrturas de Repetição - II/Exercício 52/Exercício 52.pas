@@ -1,7 +1,7 @@
 //Exercicio 52: Faça um algoritmo para calcular a série Fibonacci até 0 N-ésimo termo.
 //A série tem a seguinte forma: 1,1,2,3,5,8,13,21,34,…
 
-{		      Solução em Portugol         // A série de Fibonacci tem os 2 primeiros termos iguais a 1 e, a partir do 
+{         Solução em Portugol         // A série de Fibonacci tem os 2 primeiros termos iguais a 1 e, a partir do 
 Algoritmo Exercicio 52;               // terceiro termo, o número é formado pela soma dos dois anteriores.
                                       // Exemplo: terceiro termo = segundo termo + primeiro termo = 1 + 1 = 2
 Var
