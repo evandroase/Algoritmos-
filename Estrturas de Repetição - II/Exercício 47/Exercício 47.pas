@@ -23,7 +23,7 @@ Inicio
       então menor <- N;
     fimse;
   fimpara;
-	exiba("O menor número é: ",menor," e o maior número é: ",maior);
+  exiba("O menor número é: ",menor," e o maior número é: ",maior);
 Fim.
 }
 
@@ -51,6 +51,6 @@ begin
     if(N <= menor)
       then menor := N;
   End;
-	writeln('O menor número é: ',menor:0:2,' e o maior número é: ',maior:0:2);
+  writeln('O menor número é: ',menor:0:2,' e o maior número é: ',maior:0:2);
   repeat until keypressed;
 end.
