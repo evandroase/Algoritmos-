@@ -34,7 +34,7 @@ begin
   A := 500;
   alternador_sinal := 1;
   while(A > 0)do
-	Begin
+  Begin
     N := N + (2/A) * alternador_sinal;
     alternador_sinal := alternador_sinal * (-1);
     A := A - 50;
