@@ -10,7 +10,7 @@ Inicio
     se(resto(contador,10) = 0)
       então exiba(contador," : Múltiplo de 10.")
     fimse;
-	fimpara;
+  fimpara;
 Fim.
 }
 
@@ -25,8 +25,8 @@ begin
   writeln('Programa que exibe múltiplos de 10.');
   for contador := 1 to 100 do
   Begin
-		if((contador mod 10) = 0)
-      then writeln(contador,' : Múltiplo de 10.');
-	End;
+    if((contador mod 10) = 0)
+    then writeln(contador,' : Múltiplo de 10.');
+  End;
   repeat until keypressed;
 end.
