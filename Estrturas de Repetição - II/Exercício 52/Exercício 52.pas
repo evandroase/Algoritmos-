@@ -12,7 +12,7 @@ Inicio
   leia(termo);
   para contador <- 1 até termo faça
     se(contador = 1 ou contador = 2)
-		  então inicio
+      então inicio
               ultimo <- 1;
               penultimo <- 1;
               atual <- 1;
@@ -41,8 +41,8 @@ begin
   readln(termo);
   for contador := 1 to termo do
   Begin
-		if((contador = 1) or (contador = 2))
-		  then Begin
+    if((contador = 1) or (contador = 2))
+      then Begin
               ultimo := 1;
               penultimo := 1;
               atual := 1;
