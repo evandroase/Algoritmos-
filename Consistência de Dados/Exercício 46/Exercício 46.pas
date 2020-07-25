@@ -39,7 +39,7 @@ begin
   readln(N);
   while((N mod 2) = 1)do
   Begin
-		writeln('Digite um número par de termos da soma: ');
+    writeln('Digite um número par de termos da soma: ');
     readln(N);
   end;
   writeln('Digite um número inteiro X: ');
@@ -48,7 +48,7 @@ begin
   soma := X;
   for contador := 0 to N-1 do
   Begin
-		soma := soma + 2 * contador * alternador_sinal * X;
+    soma := soma + 2 * contador * alternador_sinal * X;
     alternador_sinal := alternador_sinal * (-1);
   End;
   writeln('A soma é: ', soma);
