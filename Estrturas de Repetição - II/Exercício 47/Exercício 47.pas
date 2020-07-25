@@ -45,7 +45,7 @@ begin
       then Begin
               maior := N;
               menor := N;
-            End;
+           End;
     if( N >= maior)
       then maior := N;
     if(N <= menor)
