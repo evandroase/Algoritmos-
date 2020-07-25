@@ -1,6 +1,6 @@
 //Exercicio :
 
-{		      Solução em Portugol
+{         Solução em Portugol
 Algoritmo Exercicio ;
 Const
   const1 = 1;
