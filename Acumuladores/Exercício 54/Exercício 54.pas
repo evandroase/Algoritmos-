@@ -13,6 +13,8 @@ Var
 Inicio
   exiba("Programa que calcula quantos anos levarão para que Beltrano seja maior que Fulano.");
   anos <- 0;
+  fulano <- 150;
+  beltrano <- 110;
   enquanto(fulano >= beltrano)faça
     anos := anos + 1;
     fulano <- altura_fulano + crescimento_fulano * anos;
@@ -37,6 +39,8 @@ begin
   clrscr;
   writeln('Programa que calcula quantos anos levarão para que Beltrano seja maior que Fulano.');
   anos := 0;
+  fulano := 150;
+  beltrano := 110;
   while(fulano >= beltrano)do
   Begin
     anos := anos + 1;
