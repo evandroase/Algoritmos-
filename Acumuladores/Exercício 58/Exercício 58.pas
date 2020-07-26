@@ -48,7 +48,7 @@ Inicio
                               então exiba("O seu imposto de renda é: ", 0,15 * renda_mensal - 0,05 * dependentes * salario_minimo)
                               senão exiba("O seu imposto de renda é: ", 0,2 * renda_mensal - 0,05 * dependentes * salario_minimo);
                             fimse;
-										fimse;
+                    fimse;
             fimse;
     fimse;
   fimpara;
