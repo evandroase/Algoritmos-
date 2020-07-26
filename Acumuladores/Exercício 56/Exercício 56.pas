@@ -23,7 +23,7 @@ Fim.
 }
 																														    // Pedaço do tabuleiro
 // Solução em Pascal                                 //////////////////////////////////////////////////
-																										 // 2^0  //  2^1   //  2^2   //  2^3   //  2^4   // 
+                                                     // 2^0  //  2^1   //  2^2   //  2^3   //  2^4   // 
 Program Exercicio56;                                 //1 grão//2 grãos //4 grãos //8 grãos //16 grãos//  ... e assim por diante.
 uses crt;                                            //////////////////////////////////////////////////
 var
