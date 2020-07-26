@@ -95,7 +95,7 @@ begin
                       else if((renda_mensal > 7 * salario_minimo) and (renda_mensal <= 10 * salario_minimo))
                               then writeln('O seu imposto de renda é: ', (0.15 * renda_mensal - 0.05 * dependentes * salario_minimo):0:2)
                               else writeln('O seu imposto de renda é: ', (0.2 * renda_mensal - 0.05 * dependentes * salario_minimo):0:2);
-	End;
+  End;
   writeln('Fim do Programa.');
   repeat until keypressed;
 end.
