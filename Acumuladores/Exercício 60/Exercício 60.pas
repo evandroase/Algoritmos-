@@ -154,11 +154,11 @@ begin
   readln(moradores);
   for contador := 1 to moradores do
   Begin
-		writeln('Qual elevador você mais utiliza?');
+    writeln('Qual elevador você mais utiliza?');
     readln(elevador);
     while((elevador <> 'A') and (elevador <> 'B') and (elevador <> 'C'))do             // Consistência de dados
     Begin
-			writeln('Escolha entre o elevador A, B e C:');
+      writeln('Escolha entre o elevador A, B e C:');
       readln(elevador);
     End;
     writeln('Qual o período que você mais utiliza o elevador?');
