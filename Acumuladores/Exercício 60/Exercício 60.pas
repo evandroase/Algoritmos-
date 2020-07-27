@@ -42,7 +42,7 @@ Inicio
   exiba("Digite quantos moradores o prédio possui: ");
   leia(moradores);
   para contador <- 1 até moradores faça
-    exiba("Qual elevador você mais utilizar?");
+    exiba("Qual elevador você mais utiliza?");
     leia(elevador);
     enquanto((elevador <> "A") e (elevador <> "B") e (elevador <> "C"))faça             // Consistência de dados
       exiba("Escolha entre o elevador A, B e C");
@@ -56,7 +56,7 @@ Inicio
     fimenquanto;
     caso(elevador)de
       "A": Inicio
-             A <- A + 1;
+             A <- A + 1;                                        // Acumulando os usos de elevadores e períodos de uso.
              caso(periodo)de
                "M": matutino_a <- matutino_a + 1;
                "V": vespertino_a <- vespertino_a + 1;
@@ -154,7 +154,7 @@ begin
   readln(moradores);
   for contador := 1 to moradores do
   Begin
-		writeln('Qual elevador você mais utilizar?');
+		writeln('Qual elevador você mais utiliza?');
     readln(elevador);
     while((elevador <> 'A') and (elevador <> 'B') and (elevador <> 'C'))do             // Consistência de dados
     Begin
@@ -168,7 +168,7 @@ begin
 			writeln('Escolha entre os periodos matutino(M), vespertino (V) e noturno (N)');
       readln(periodo);
     End;
-    case(elevador)of
+    case(elevador)of                                   // Acumulando os usos de elevadores e períodos de uso.
       'A': Begin
              A := A + 1;
              case(periodo)of
@@ -220,13 +220,10 @@ begin
                     then Begin
                             writeln('O elevador mais utilizado foi o C.');
                             if((matutino_c > vespertino_c) and (matutino_c > noturno_c))
-                              então exiba("No período da manhã.")
-                              senão se((vespertino_c > matutino_c) e (vespertino_c > noturno_c))
-                                      então exiba("No período da tarde.")
-                                      senão exiba("No período da noite.");
-
-Fim.
-  writeln('');
-  readln();
+                              then writeln('No período da manhã.')
+                              else if((vespertino_c > matutino_c) and (vespertino_c > noturno_c))
+                                      then writeln('No período da tarde.')
+                                      else writeln('No período da noite.');
+                         End;
   repeat until keypressed;
 end.
