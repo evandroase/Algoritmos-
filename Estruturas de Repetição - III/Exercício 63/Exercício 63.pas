@@ -59,7 +59,7 @@ begin
   readln(juros);
   while(juros <= 0)do
   Begin
-		writeln('Digite uma taxa de juros válida.');
+    writeln('Digite uma taxa de juros válida.');
     readln(juros);
   End;
   for contador := 1 to mes do
