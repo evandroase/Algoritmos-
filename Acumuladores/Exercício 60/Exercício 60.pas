@@ -20,7 +20,8 @@ Algoritmo Exercicio 60;
 Var
   matutino, vespertino, noturno: real;
   A, B, C, matutino_a, vespertino_a, noturno_a, matutino_b, vespertino_b, noturno_b,
-  matutino_c, vespertino_c, noturno_c, moradores: inteiro;
+  matutino_c, vespertino_c, noturno_c, moradores,contador: inteiro;
+  elevador, periodo: caracter;
 Inicio
   A <- 0;                                  // Zerando os acumuladores.
   B <- 0;
@@ -37,10 +38,88 @@ Inicio
   matutino_c <- 0;
   vespertino_c <- 0;
   noturno_c <- 0;
-
   exiba("Pesquisa para otimizar o uso de elevadores.");
   exiba("Digite quantos moradores o prédio possui: ");
   leia(moradores);
+  para contador <- 1 até moradores faça
+    exiba("Qual elevador você mais utilizar?");
+    leia(elevador);
+    enquanto((elevador <> "A") e (elevador <> "B") e (elevador <> "C"))             // Consistência de dados
+      exiba("Escolha entre o elevador A, B e C");
+      leia(elevador);
+    fimenquanto;
+    exiba("Qual o período que você mais utiliza o elevador?");
+    leia(periodo);
+    enquanto((periodo <> "M") e (periodo <> "V") e (periodo <> "N"))             // Consistência de dados
+      exiba("Escolha entre os periodos matutino(M), vespertino (V) e noturno (N)");
+      leia(periodo);
+    fimenquanto;
+    caso(elevador)de
+      "A": Inicio
+             A <- A + 1;
+             caso(periodo)de
+               "M": matutino_a <- matutino_a + 1;
+               "V": vespertino_a <- vespertino_a + 1;
+               "N": noturno_a <- noturno_a + 1;
+             fimcaso;
+           Fim;
+      "B": Inicio
+             B <- B + 1;
+             caso(periodo)de
+               "M": matutino_b <- matutino_b + 1;
+               "V": vespertino_b <- vespertino_b + 1;
+               "N": noturno_b <- noturno_b + 1;
+             fimcaso;
+           Fim;
+      "C": Inicio
+             C <- C + 1;
+             caso(periodo)de
+               "M": matutino_c <- matutino_c + 1;
+               "V": vespertino_c <- vespertino_c + 1;
+               "N": noturno_c <- noturno_c + 1;
+             fimcaso;
+           Fim;                                               // OBS: Eu estou ignorando os casos em que existem igualdades
+    fimcaso;                                                  // pq o exercício ficaria muito grande.
+  fimpara;
+  matutino <- matutino_a + matutino_b + matutino_c;           // Total de usos em cada período.
+  vespertino <- vespertino_a + vespertino_b + vespertino_c;
+  noturno <- noturno_a + noturno_b + noturno_c;
+  se((A > B) e (A > C))                                      
+    então Inicio                                                                //Questão (a)
+            exiba("O elevador mais utilizado foi o A.");
+            se((matutino_a > vespertino_a) e (matutino_a > noturno_a))
+              então exiba("No período da manhã.")
+              senão se((vespertino_a > matutino_a) e (vespertino_a > noturno_a))
+                      então exiba("No período da tarde.")
+                      senão exiba("No período da noite.");
+                    fimse;
+            fimse;
+          Fim
+    senão se((B > A) e (C > A))
+            então Inicio
+                    exiba("O elevador mais utilizado foi o B.");
+                    se((matutino_b > vespertino_b) e (matutino_b > noturno_b))
+                      então exiba("No período da manhã.")
+                      senão se((vespertino_b > matutino_b) e (vespertino_b > noturno_b))
+                              então exiba("No período da tarde.")
+                              senão exiba("No período da noite.");
+                            fimse;
+                    fimse;
+                  Fim
+            senão se((C > B) e (C > A))
+                    então Inicio
+                            exiba("O elevador mais utilizado foi o B.");
+                            se((matutino_c > vespertino_c) e (matutino_c > noturno_c))
+                              então exiba("No período da manhã.")
+                              senão se((vespertino_c > matutino_c) e (vespertino_c > noturno_c))
+                                      então exiba("No período da tarde.")
+                                      senão exiba("No período da noite.");
+                                    fimse;
+                            fimse;
+                          Fim
+                  fimse;
+          fimse;
+	fimse;
 Fim.
 }
 
