@@ -165,7 +165,7 @@ begin
     readln(periodo);
     while((periodo <> 'M') and (periodo <> 'V') and (periodo <> 'N'))do             // Consistência de dados
     Begin
-			writeln('Escolha entre os periodos matutino(M), vespertino (V) e noturno (N)');
+      writeln('Escolha entre os periodos matutino(M), vespertino (V) e noturno (N)');
       readln(periodo);
     End;
     case(elevador)of                                   // Acumulando os usos de elevadores e períodos de uso.
