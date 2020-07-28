@@ -22,7 +22,7 @@ Inicio
               então menor <- N[i];
             fimse; 
     fimse;
-	fimpara;
+  fimpara;
   exiba("O maior número é: ",maior," e o menor é: ",menor);
 Fim.
 }
@@ -45,12 +45,12 @@ begin
       then Begin
               maior := N[i];
               menor := N[i];
-            End;
+           End;
     if(N[i] > maior)                // Avaliação dos números para saber se eles são o maior/menor.
       then maior := N[i]
       else if(N[i] < menor)
               then menor := N[i];
-	end;
+  end;
   writeln('O maior número é: ',maior,' e o menor é: ',menor);
   repeat until keypressed;
 end.
