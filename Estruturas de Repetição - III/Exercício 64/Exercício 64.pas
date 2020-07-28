@@ -19,12 +19,12 @@ Inicio
     senão c:= b;
   fimse;
   se(b = 0)
-		então exiba("O valor da multiplicação é 0")                   // Se b = 0, não é possível fazer a soma.
+    então exiba("O valor da multiplicação é 0")                   // Se b = 0, não é possível fazer a soma.
     senão para contador <- 1 até b faça
              se(((a > 0) and (b < 0)) or ((a < 0) and (b < 0)))   // Tratando as 4 combinações de positivos e negativos.
                 então resultado := resultado - a
                 senão resultado := resultado + a;
-            fimse;
+             fimse;
           fimpara;
   fimse;
   exiba("a X b = ", resultado);
