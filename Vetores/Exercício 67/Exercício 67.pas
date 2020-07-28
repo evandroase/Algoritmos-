@@ -36,7 +36,7 @@ begin
   clrscr;
   quantidade_14 := 0;
   writeln('Programa que armazena 250 números e diz quais/quantos deles são iguais a 14.');
-  for i := 1 to 5 do
+  for i := 1 to 250 do
   Begin
     writeln('Digite o ',i,'º número:');
     readln(N[i]);
@@ -44,7 +44,7 @@ begin
       then quantidade_14 := quantidade_14 + 1;
   End;
   writeln('A quantidade de 14 que aparecem entre os 250 é: ', quantidade_14,' e eles estão nas posições: ');
-  for i := 1 to 5 do
+  for i := 1 to 250 do
     if(N[i] = 14)
       then write(i,' ');
   repeat until keypressed;
