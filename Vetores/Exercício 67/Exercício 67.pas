@@ -45,9 +45,7 @@ begin
   End;
   writeln('A quantidade de 14 que aparecem entre os 250 é: ', quantidade_14,' e eles estão nas posições: ');
   for i := 1 to 5 do
-  Begin
     if(N[i] = 14)
       then write(i,' ');
-  End;
   repeat until keypressed;
 end.
