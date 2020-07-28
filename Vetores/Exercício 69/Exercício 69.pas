@@ -88,11 +88,11 @@ begin
               then menor := temperatura_media[i];
   End;
   for i := 1 to 12 do
-	Begin
+  Begin
     if(temperatura_media[i] = maior)
       then writeln(mes[i],' teve a maior temperatura média: ', temperatura_media[i]:0:2,'ºC.');
     if(temperatura_media[i] = menor)
       then writeln(mes[i],' teve a menor temperatura média: ', temperatura_media[i]:0:2,'ºC.');
-	End;
+  End;
   repeat until keypressed;
 end.
