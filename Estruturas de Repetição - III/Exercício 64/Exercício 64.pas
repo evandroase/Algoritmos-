@@ -49,7 +49,7 @@ begin
     then c := -b
     else c:= b;
   if(b = 0)
-		then writeln('O valor da multiplicação é 0.')
+    then writeln('O valor da multiplicação é 0.')
     else for contador := 1 to c do
             if(((a > 0) and (b < 0)) or ((a < 0) and (b < 0)))
               then resultado := resultado - a
