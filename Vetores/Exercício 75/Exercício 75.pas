@@ -12,7 +12,7 @@ Var
   i: inteiro;
 Inicio
   exiba("Programa treinando vetores.");
-	soma_vetor <- 0;
+  soma_vetor <- 0;
   para i <- 1 até 50 faça                         // Lê os 50 números e calcula a soma dos elementos de X.
     exiba("Digite o ",i,"º número.");
     leia(X[i]);
@@ -49,7 +49,7 @@ Var
 Begin
   clrscr;
   writeln('Programa treinando vetores.');
-	soma_vetor := 0;
+  soma_vetor := 0;
   for i := 1 to 50 do                               // Lê os 50 números e calcula a soma dos elementos de X.
   Begin
     writeln('Digite o ',i,'º número.');
