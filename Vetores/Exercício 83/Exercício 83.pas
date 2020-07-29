@@ -122,13 +122,13 @@ Begin
       'F': Begin                                                 // pesos das mulheres e idades dos homens.
              mulher := mulher + 1;
              soma_peso_mulher := soma_peso_mulher + peso[i];
-	         End;
+           End;
       'M': Begin
              homem := homem + 1;
              soma_idade_homem := soma_idade_homem + idade[i];
-	         End;
+           End;
     End;
-	End;
+  End;
 
   writeln('Quantidade de homens: ',homem);                             // Questão (a)
   writeln('Quantidade de mulheres: ',mulher);                          // Questão (b)
