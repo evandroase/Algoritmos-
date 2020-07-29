@@ -40,7 +40,7 @@ Inicio
           fimpara;
           exiba("O maior número é: ",maior," e aparece ",quantidade_maior," vezes.");
         Fim
-	senão exiba("Você ultrapassou o número de tentativas possíveis. Programa finalizado.");
+  senão exiba("Você ultrapassou o número de tentativas possíveis. Programa finalizado.");
 Fim.
 }
 
@@ -86,6 +86,6 @@ begin
            End;
            WriteLn('O maior número é: ',maior:0:2,' e aparece ',quantidade_maior,' vezes.')
          End
-	  else writeln('Você ultrapassou o número de tentativas possíveis. Programa finalizado.');
+  else writeln('Você ultrapassou o número de tentativas possíveis. Programa finalizado.');
 	repeat until keypressed;
 end.
