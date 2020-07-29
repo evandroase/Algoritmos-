@@ -59,7 +59,7 @@ Inicio
     fimse;
     divisores <- 0;
   fimpara;
-	exiba("Pares: ", pares," impares: ",impares);            // Questão (a)
+  exiba("Pares: ", pares," impares: ",impares);            // Questão (a)
   exiba("Maior número: ",maior," menor número: ",menor);   // Questão (b)
   exiba("Quantidade de múltiplos de 4: ",multiplos_4);     // Questão (c)
   exiba("Quantidade de números primos: ",primos);          // Questão (d)
