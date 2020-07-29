@@ -18,12 +18,12 @@ Inicio
 
   exiba("O vetor A!");
   para i <- 1 até 50 faça
-	  exiba("A[",i,"] = ",A[i]);                             // Exibindo A
+    exiba("A[",i,"] = ",A[i]);                             // Exibindo A
   fimpara;
 
   exiba("O vetor B!");
   para i <- 1 até 50 faça
-	  exiba("B[",i,"] = ",B[i]);                             // Exibindo B
+    exiba("B[",i,"] = ",B[i]);                             // Exibindo B
   fimpara;
 Fim.
 }
@@ -48,9 +48,9 @@ Begin
 
   writeln('O vetor A!');
   for i := 1 to 5 do
-	  writeln('A[',i,'] = ',A[i]);                             // Exibindo A
+    writeln('A[',i,'] = ',A[i]);                             // Exibindo A
 
   writeln('O vetor B!');
   for i := 1 to 5 do
-	  writeln('B[',i,'] = ',B[i]);                             // Exibindo B
+    writeln('B[',i,'] = ',B[i]);                             // Exibindo B
 end.
