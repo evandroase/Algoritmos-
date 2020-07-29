@@ -24,7 +24,7 @@ Inicio
   para i <- 1 até 50 faça                         // Criando o vetor Y.
     Y[i] <- X[i] - media_X;
   fimpara;
-	exiba("A média do vetor X é: ",media_X);        // Exibindo a média dos elementos de X.
+  exiba("A média do vetor X é: ",media_X);        // Exibindo a média dos elementos de X.
   exiba("O vetor X é:");
   para i <- 1 até 50 faça                         //Exibindo os elementos de X.
     exiba("X[",i,"] = ",X[i]);
