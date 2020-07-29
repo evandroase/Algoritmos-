@@ -49,13 +49,13 @@ Inicio
       "F": Inicio                                                 // pesos das mulheres e idades dos homens.
              mulher <- mulher + 1;
              soma_peso_mulher <- soma_peso_mulher + peso[i];
-	         Fim;
+           Fim;
       "M": Inicio
              homem <- homem + 1;
              soma_idade_homem <- soma_idade_homem + idade[i];
-	         Fim;
+           Fim;
     fimcaso;		
-	fimpara;
+  fimpara;
 	
   media_idade_homem <- soma_idade_homem/homem;
   media_peso_mulher <- soma_peso_mulher/mulher;
@@ -93,7 +93,7 @@ Begin
   mulher := 0;
   writeln('Programa que armazena a idade, sexo, peso de 10 pessoas e exibe um relatório desses dados.');
   for i := 1 to 10 do
-	Begin																									// Leitura dos dados. Sexo -> Idade -> Peso, com consistência de dados.
+  Begin																									// Leitura dos dados. Sexo -> Idade -> Peso, com consistência de dados.
     writeln('Digite o sexo da pessoa:');
     readln(sexo[i]);
     while((sexo[i] <> 'M') and (sexo[i] <> 'F'))do
@@ -114,7 +114,7 @@ Begin
     readln(peso[i]);
     while(peso[i] < 0)do
     Begin
-			writeln('Digite um peso válido:');
+      writeln('Digite um peso válido:');
       readln(peso[i]);
     End;
 
