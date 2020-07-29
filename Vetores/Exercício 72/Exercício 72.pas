@@ -95,5 +95,5 @@ begin
                           writeln(j);
                           posicoes_iguais[j] := 0;
                        End;
-            End;
+           End;
 end.
