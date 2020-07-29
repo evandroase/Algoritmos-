@@ -36,12 +36,12 @@ Inicio
       leia(P2[i]);
     fimenquanto;
     media[i] <- (P1[i] + P2[i])/2;
-   se(media[i] < 5)                                          // Acumulando aprovados e reprovados.
-     então reprovados <- reprovados + 1
-     senão se(media[i] >= 7)
-             então aprovados <- aprovados + 1;
-           fimse;
-   fimse;
+    se(media[i] < 5)                                          // Acumulando aprovados e reprovados.
+      então reprovados <- reprovados + 1
+      senão se(media[i] >= 7)
+              então aprovados <- aprovados + 1;
+            fimse;
+    fimse;
   fimpara;
   exiba("Media            Mensagem");
   para i <- i até 6 faça                                            // Exibindo segundo o padrão do exercício.
