@@ -3,7 +3,7 @@
 {         Solução em Portugol
 Algoritmo Exercicio 99;
 Var
-  H,M,S,RESULTADO	: inteiro;
+  H,M,S,RESULTADO: inteiro;
 Procedimento Conversor(h: inteiro; m: inteiro; s: inteiro;Var resultado: inteiro);
 Inicio
   resultado <- h * 3600 + m * 60 + s;
@@ -38,7 +38,7 @@ Fim.
 Program Exercicio99;
 uses crt;
 Var
-  H,M,S,RESULTADO	: integer;
+  H,M,S,RESULTADO: integer;
 Procedure Conversor(h: integer; m: integer; s: integer;Var resultado: integer);
 Begin
   resultado := h * 3600 + m * 60 + s;
