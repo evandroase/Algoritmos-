@@ -7,6 +7,10 @@ Exercicio 89: Fazer um algoritmo que a partir da produção mensal de motores M1 e
 M1 30   5   7  12   3   9  23  14   7   4   8  13
 M2 20  10  15   5   6   18 24  13   26  11  7  18
 
+       Custo (R$)    Lucro (R$)
+M1       1000          300
+M2       1500          200
+
 }
 {         Solução em Portugol
 Algoritmo Exercicio 89;
