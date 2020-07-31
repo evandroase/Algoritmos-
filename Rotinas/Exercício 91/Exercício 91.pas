@@ -1,4 +1,6 @@
-//Exercicio 91:
+//Exercicio 91: Faça um algoritmo que imite as operações básicas de uma calculadora. Deve possuir um menu principal
+//(criado a partir de uma função) e possuir as quatro operações básicas: soma, subtração, multiplicação e divisão.
+//Cada ação deve ser executada a partir de uma função.
 
 {         Solução em Portugol
 Algoritmo Exercício91;
