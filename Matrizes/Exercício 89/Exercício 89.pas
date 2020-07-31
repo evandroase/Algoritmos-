@@ -16,7 +16,7 @@ Const
   lucro_M1 = 300;
   lucro_M2 = 200;
 Tipo
-	matriz = vetor[1..2,1..12] de inteiro; 
+  matriz = vetor[1..2,1..12] de inteiro; 
 Var
   M,C,L: matriz;
   i,j,lucro_anualM1,custo_anualM1,lucro_anualM2,custo_anualM2: inteiro;
@@ -62,7 +62,7 @@ Const
   lucro_M1 = 300;
   lucro_M2 = 200;
 Type
-	matriz = array[1..2,1..12] of integer;
+  matriz = array[1..2,1..12] of integer;
 Var
   M,C,L: matriz;
   i,j,lucro_anualM1,custo_anualM1,lucro_anualM2,custo_anualM2: integer;
