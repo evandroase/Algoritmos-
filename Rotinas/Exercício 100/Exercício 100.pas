@@ -8,7 +8,7 @@ Var
 Procedimento ConversorKelvin(Var k: real);
 Inicio
   exiba("Digite uma temperatura em Celsius:");
-  leia(C);
+  leia(c);
   enquanto(c < -273)faça
     exiba("Digite uma temperatura válida:");
     leia(c);
