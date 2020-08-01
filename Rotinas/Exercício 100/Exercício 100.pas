@@ -5,7 +5,7 @@
 Algoritmo Exercicio 100;
 Var
   K: real;
-Procedimento Conversor(Var k: real);
+Procedimento ConversorKelvin(Var k: real);
 Inicio
   exiba("Digite uma temperatura em Celsius:");
   leia(C);
