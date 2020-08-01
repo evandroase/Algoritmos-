@@ -44,7 +44,7 @@ Var
   Aux,RESULTADO: integer;
 Procedure ConversorHorario(aux: integer; Var resultado: integer);
 Var
- h,m,s: integer;
+  h,m,s: integer;
 Begin
   writeln('Digite um número de horas:');
   readln(h);
