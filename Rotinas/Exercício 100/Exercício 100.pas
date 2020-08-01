@@ -3,14 +3,22 @@
 
 {         Solução em Portugol
 Algoritmo Exercicio 100;
-Const
-  const1 = 1;
 Var
-  var1: real;
+  C: real;
+Procedimento Conversor(c: real; Var k: real);
 Inicio
-  exiba("");
-  exiba("");
-  leia();
+  enquanto(c < -273)faça
+    exiba("Digite uma temperatura válida:");
+    leia(c);
+  fimenquanto;
+  k <- 273 + c;
+Fim;
+Inicio
+  exiba("Programa que converte de Celsius para Kelvin.");
+  exiba("Digite uma temperatura em Celsius:");
+  leia(C);
+	Conversor(C,K);
+  exiba(C," Celsius enquivale a ",K," Kelvin.");
 Fim.
 }
 
@@ -18,13 +26,22 @@ Fim.
 
 Program Exercicio100;
 uses crt;
-const
-  const1 = 1;
-var
-  var1: real;
-begin
-  clrscr;
-  writeln('');
-  readln();
+Var
+  C,K: real;
+Procedure Conversor(c: real; Var k: real);
+Begin
+  while(c < -273)do
+  Begin
+    WriteLn('Digite uma temperatura válida:');
+    readln(c);
+  End;
+  k := 273 + c;
+End;
+Begin
+  writeln('Programa que converte de Celsius para Kelvin.');
+  writeln('Digite uma temperatura em Celsius:');
+  readln(C);
+	Conversor(C,K);
+  writeln(C:0:2,' Celsius enquivale a ',K:0:2,' Kelvin.');
   repeat until keypressed;
 end.
