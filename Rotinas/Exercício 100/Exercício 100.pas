@@ -4,21 +4,22 @@
 {         Solução em Portugol
 Algoritmo Exercicio 100;
 Var
-  C: real;
-Procedimento Conversor(c: real; Var k: real);
+  K: real;
+Procedimento Conversor(Var k: real);
 Inicio
+  exiba("Digite uma temperatura em Celsius:");
+  leia(C);
+  enquanto(c < -273)faça
+    exiba("Digite uma temperatura válida:");
+    leia(c);
+  fimenquanto;
   k <- 273 + c;
+  exiba(c," Celsius equivalem a ");
 Fim;
 Inicio
   exiba("Programa que converte de Celsius para Kelvin.");
-  exiba("Digite uma temperatura em Celsius:");
-  leia(C);
-  enquanto(C < -273)faça
-    exiba("Digite uma temperatura válida:");
-    leia(C);
-  fimenquanto;
-  Conversor(C,K);
-  exiba(C," Celsius enquivale a ",K," Kelvin.");
+  ConversorKelvin(K);
+  exiba(K," Kelvin.");
 Fim.
 }
 
@@ -27,21 +28,24 @@ Fim.
 Program Exercicio100;
 uses crt;
 Var
-  C,K: real;
-Procedure Conversor(c: real; Var k: real);
+  K: real;
+Procedure Conversor(Var k: real);
+Var
+  c: real;
 Begin
-  k := 273 + c;
-End;
-Begin
-  writeln('Programa que converte de Celsius para Kelvin.');
   writeln('Digite uma temperatura em Celsius:');
-  readln(C);
-  while(C < -273)do
+  readln(c);
+  while(c < -273)do
   Begin
     writeln('Digite uma temperatura válida:');
     readln(c);
-  End;
-  Conversor(C,K);
-  writeln(C:0:2,' Celsius enquivale a ',K:0:2,' Kelvin.');
+  end;
+  k := 273 + c;
+  write(c:0:2,' Celsius equivalem a ');
+End;
+Begin
+  writeln('Programa que converte de Celsius para Kelvin.');
+  Conversor(K);
+  writeln(K:0:2,' Kelvin.');
   repeat until keypressed;
 end.
