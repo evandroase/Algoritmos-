@@ -29,7 +29,7 @@ Program Exercicio100;
 uses crt;
 Var
   K: real;
-Procedure Conversor(Var k: real);
+Procedure ConversorKelvin(Var k: real);
 Var
   c: real;
 Begin
@@ -45,7 +45,7 @@ Begin
 End;
 Begin
   writeln('Programa que converte de Celsius para Kelvin.');
-  Conversor(K);
+  ConversorKelvin(K);
   writeln(K:0:2,' Kelvin.');
   repeat until keypressed;
 end.
